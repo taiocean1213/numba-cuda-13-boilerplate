@@ -1,0 +1,9 @@
+name: numba_cuda
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - numba
+  - cudatoolkit
