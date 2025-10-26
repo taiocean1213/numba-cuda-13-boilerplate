@@ -1,6 +1,6 @@
 # CUDA Numba Example
 
-This boilerplate epository contains a simple example of using Numba with CUDA for GPU acceleration, supports cuda 13.
+This boilerplate repository contains a simple example of using Numba with CUDA for GPU acceleration, supports cuda 13.
 
 ## Setup
 
