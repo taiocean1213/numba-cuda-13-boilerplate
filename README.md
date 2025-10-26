@@ -27,6 +27,28 @@ python example.py
 
 If CUDA is available, it will perform vector addition on the GPU and verify the result.
 
+## Dependencies
+
+This repository depends on:
+
+- Python 3.9 or higher
+- Numba (for JIT compilation)
+- numba-cuda (for CUDA support, with version matching your CUDA toolkit, e.g., [cu13] for CUDA 13)
+- CUDA toolkit and drivers (matching the numba-cuda version)
+- A CUDA-compatible NVIDIA GPU
+
+## Virtual Environment
+
+It is recommended to use a virtual environment for isolation:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate  # On Windows
+pip install numba numba-cuda[cu13]
+```
+
+Then run the example as usual.
+
 ## Requirements
 
 - CUDA-compatible GPU

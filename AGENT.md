@@ -1,1 +1,1 @@
-use conda for pip only, and use windows powershell.
+use .venv for pip only, and use windows powershell.
