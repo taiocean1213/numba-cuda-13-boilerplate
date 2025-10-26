@@ -1,0 +1,1 @@
+use conda for pip only, and use windows powershell.
