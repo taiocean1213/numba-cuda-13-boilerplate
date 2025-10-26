@@ -1,0 +1,2 @@
+numba
+numba-cuda[cu13]
